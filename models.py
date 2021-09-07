@@ -12,6 +12,7 @@ class Entry(models.Model):
     Content = data.CharField(500, null=True)
     Sender = data.CharField(500, null=True)
     Wey = data.CharField(500, null=True)
+    Files = data.CharField(500, null=True)
 
 Entry_Pydantic = pydantic_model_creator(Entry, name="Entry")
 EntryIn_Pydantic = pydantic_model_creator(Entry, name="EntryIn", exclude_readonly=True)

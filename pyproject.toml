@@ -11,6 +11,7 @@ uvicorn = "^0.15.0"
 tortoise-orm = "^0.17.7"
 aiomysql = "^0.0.21"
 aerich = "^0.5.8"
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 
