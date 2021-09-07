@@ -15,6 +15,4 @@ register_tortoise(
     app,
     db_url="mysql://root:35739517@192.168.0.51:3307/InOut2",
     modules={"models": ["models"]},
-    # generate_schemas=True,
-    # add_exception_handlers=True
 )
